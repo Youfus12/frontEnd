@@ -1,0 +1,89 @@
+.marginsBody{
+    background-color: white;
+}
+
+#box1{
+    border: 3px solid;
+    width: 250px;
+    height: 250px;
+    font-size: 19px;
+    background-color: green;
+    padding: 5px;
+    margin-bottom: 10px;
+    
+
+}
+
+#box1x{
+    border: 3px solid;
+    width: 250px;
+    height: 250px;
+    font-size: 19px;
+    background-color: green;
+/*
+    animation: mySlide;
+    animation-delay: 3s;
+    animation-play-state: running;
+    animation-iteration-count: infinite;
+    animation-duration: 10s;
+    
+    animation: duration delay iteration-count play-state name;
+*/
+
+}
+#box1x:hover{
+    animation: 10s 3s infinite running mySlide; 
+}
+@keyframes mySlide{
+    from{margin-left: 100%;}
+    to{margin-left: 0%;}
+}
+
+#box2{
+    
+    border: 3px saddlebrown solid;
+    background-color: aqua;
+    width: 250px;
+    height: 250px;
+    padding: 5px;
+    font-size: 19px;
+    
+    position: sticky;
+    top: 2px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+#box3{
+    border:2px yellowgreen solid;
+    background-color: aliceblue;
+    width: 200px;
+    font-size: 20px;
+    margin-left: 20%;
+    transform: scaleX(2); /* multiply for 2 the scale, there are more transform arguments, use them*/
+    
+} 
+
+a:link{
+    color: aqua;
+}
+a:visited{
+    color:red;
+}
+a:hover{
+    color: black;
+}
+a:active{
+    color: yellow;
+}
+button:hover{
+    color:black; 
+    background-color: aquamarine;
+}
+/* You can put in the argument : odd,even, or index of the child , or n to select them all*/
+li:nth-child(1){
+    background-color: aquamarine;
+}
+li:nth-child(n):hover{
+    box-shadow: 5px 5px 5px black;
+}   

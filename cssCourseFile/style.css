@@ -1,0 +1,29 @@
+body{
+    background-color: bisque;
+}
+
+.page2body{
+    background: linear-gradient(to bottom, gray, black);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+h1{
+    color: aliceblue;
+}
+
+.sams{
+    color: blue;
+}
+.iph{
+    color:  gold;
+}
+.page2par{
+    font-size: 50px;
+    background-image: url(images/81VhQB+HcrL._AC_SX679_.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+img{
+    padding: 1%;
+}
