@@ -1,0 +1,34 @@
+let user = "younes";
+
+// To get the character by index:
+user.charAt(index)
+
+// To get index of a character:
+user.indexOf("character");
+
+// To get the length of a string: 
+user.length;
+
+// To remove unecessary Spaces in a string:
+user = user.trim()
+
+// UpperCase / LowerCase   string
+user = user.toUpperCase() or user.toLowerCase();
+
+// Repeat a string n times:
+user = user.repeat(n);
+
+// Check if the string (starts / ends / include) with X character: return true or false
+boolean = user.startsWith("");
+boolean = user.endsWith("s");
+boolean = user.includes("&");
+
+// Repleace a character for another in strings
+user = user.replaceAll("a","-") ; replace all "a" with - ;
+
+// Padding a string with a character from the left to right, until its n length
+user = user.padStart(n,"character")
+
+// String Slicing : string.slice(first,end+1)
+user = user.slice(0,4)
+user = user.slice(-1): last char
