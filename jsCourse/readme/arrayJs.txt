@@ -1,0 +1,50 @@
+let array = ["Val",2,0,true];
+
+Tip: the same built in functions that are on the String works here too.
+
+Tip: in for loops , is the same as python or C.
+
+
+// To add an element to the end :
+array.push("val");
+
+// To delete the last element: 
+array.pop()
+
+// To add at begining:
+array.unshift("Val");
+
+//  To remove at the begining
+array.shift()
+
+// The length :
+array.length;
+
+// To sort an array:
+array.sort()
+in reverse
+array.sort().reverse(); 
+
+// To join an array of strings or any value
+array = array.join("-"); "-" we can use any symbol
+
+------Using Spread operator----
+// To get the max or min of an array :
+
+-First we need to use the spread operator: (...array)
+    it makes an iteable(array or string) to be expanded into separate elements
+-Then use : 
+    let max = Math.max(...array); return max
+
+// To combine two Arrays:
+You should  use spread operator
+newArray = [...array1,...array2]
+
+------Using rest operator----
+rest operator : (...) is the oposit of spread
+                - It bundles separate elements into an array
+
+function bundle(...arrayValues){
+    return arrayValues;
+}
+bundle(val1,val2,val3) illimited arguments and will return an array of those arguments
