@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <title>weather converter</title>
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+
+    <body>
+
+        <form id="box">
+            <label id="title">Temperature<br>converter :</label><br><br>
+            <input type="number" id="idInput"><br><br>
+
+            <div id="checkbox" >
+            <input type="radio" id="cTof" name="unit">
+            <label for="cTof">Celcius to Fehrenheit</label><br>
+            <input type="radio" id="fToc" name="unit">
+            <label for="fToc">Fehrenheit to Celcius</label>
+            </div><br>
+
+            <button type="button" onclick="convert()">Submit</button>
+            
+            <p id="resultId"> Select a convert type</p>
+        </form>
+        
+
+        <script src="index.js"></script>
+    </body>
+
+</html>
