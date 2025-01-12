@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>School Schedules</title>
+  <!-- Link the JS file that has all data, solver, and ShowSchd -->
+  <script src="main.js"></script>
+  <style>
+    /* Basic styling */
+    table {
+      border-collapse: collapse;
+      margin: 20px auto;
+    }
+    th, td {
+      border: 2px solid #333;
+      padding: 8px;
+      text-align: center;
+    }
+    h1 {
+      text-align: center;
+      font-family: sans-serif;
+    }
+  </style>
+</head>
+<body>
+  <h1>Class A Schedule</h1>
+  <table id="tblA"></table>
+
+  <h1>Class B Schedule</h1>
+  <table id="tblB"></table>
+
+  <h1>Class C Schedule</h1>
+  <table id="tblC"></table>
+
+  <script>
+    /* Once the page loads, run the solver and then display each schedule. */
+    solveSchoolSchedules(classSections, professors, allModules);
+
+    ShowSchd(document.getElementById("tblA"), classSections[0].schedule);
+    ShowSchd(document.getElementById("tblB"), classSections[1].schedule);
+    ShowSchd(document.getElementById("tblC"), classSections[2].schedule);
+  </script>
+</body>
+</html>

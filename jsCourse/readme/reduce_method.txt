@@ -1,0 +1,2 @@
+// The reduce() method is used to take all the items in an array and "reduce" them into a single value (like a total, product, or object).
+

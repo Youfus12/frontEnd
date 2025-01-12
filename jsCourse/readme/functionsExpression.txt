@@ -1,0 +1,18 @@
+ // function expressions:  a way to define function as values or variables
+let hello = function(){
+    console.log("Hello");
+}
+
+Tip:  wee can declare an entire function as an argument
+exp: function() : callback, 3000ms second argument 
+setTimeout(function(){
+    console.log("Hello");
+}, 3000); 
+
+
+// Arrow Fonctions: 
+-if the fonction declaration we need , function and name of the function
+- and the function expression we just need , function
+in arrow function we need only (), hhhh mal9awsh win ykono different hado ta3 java script
+
+exp: let hellow = (argument) =>   { console.log("hello") }; 🤮

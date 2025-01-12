@@ -1,0 +1,15 @@
+" A callback: is an function type argument in a function; 
+example: 
+function test(callback){}
+function test2()
+test(test2);  and the callback argument is the fonction test2
+
+
+// Iterate in every element o an array/string  and apply the fonction = callback
+array.forEach(callback);
+
+// The same as forEach , but the .map() returns a new array
+newArray = array.map(callback)
+
+// Filter an array with a specefic fonction: 
+newArray = array.filter(callback) , it will filter the elements in an array that returns true in the callback
